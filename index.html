@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        
+    </header>
+       <nav class="navbar">
+            <ul>
+                <li><a href="#welcome" class="active">Home</a></li>
+                <li><a href="#welcome">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            
+            </ul>
+        
+       </nav> 
+
+    </header>
+    <main>
+        <h1>Nambi Lucia's <br>Portfolio</h1>
+        <div id="welcome">
+        
+            <div class="paragraph">
+             <P>My name is <i>Nambi Lucia</i> an aspiring software developer with a strong foundation in HTML, CSS, and JavaScript basics. <p>Currently serving as an administrative officer at Golazo Business Hub. My journey into the tech world has been shaped by diverse roles, from data entry to being a bank teller and credit relationship officer. </p> <p>These experiences have not only honed my organizational and financial skills but have also fueled my passion for programming. I am dedicated to harnessing the power of technology to bring about positive change in society.</p><p> As a creative problem solver, I thrive on the challenges of software development and aspire to contribute meaningfully to innovative solutions. Let's embark on this coding adventure together!</P> 
+
+             <button class="btn">Hire me</button>
+            </div>
+        
+            <div class="image">
+               <img src="./media/IMG_20240129_155529_274.jpg" alt="A picture of lucia" >
+             </div>
+        
+
+            
+
+        </div>
+        <h2>Featured projects</h2>
+        <div id="projects">
+            
+            <div class="project-tile">
+                <img src="./media/quotegen.png" alt="screenshot  of quote generator"  class="tile-img">
+                <h3>Simple Random Quote Generator</h3>
+                <p>This is a random quote generator I created using HTML,CSS and vanilla JavaScript.<br>My focus on this small project was mainly its functionality hence little attention given to the design. In this project, I learnt how to use methods such as <em>Math.random()</em> and arrays together to generate random quotes. </p> <a href="https://codepen.io/Lucia-Nambi/pen/eYXpJap" target="_blank">Check it out</a>
+
+            </div>
+            <div class="project-tile">
+                <img src="./media/Tipcalc2.png" alt="screenshot of tip calculator"    class="tile-img">
+                <h3>Basic Tip Calculator</h3>
+                <p>This is a basic tip calculator I created using HTML,CSS and vanilla JavaScript.<p>In this project, I made use of basic arithmetic functions and event handlers so it could produce accurate results.
+                I solely focused on functionality of the calculator.</p>
+                 </p> 
+                <a href="https://codepen.io/Lucia-Nambi/pen/rNRWjXW" target="_blank">Check it out</a>
+
+
+
+            </div>
+            <div class="project-tile">
+                <img src="./media/DOW.png" alt="screenshot day of the week"  class="tile-img">
+
+                <h3>Day of the week</h3>
+                <p>This is a basic small project I created using HTML,CSS and vanilla JavaScript.</p> <p>In this project,I made use of methods such as <em>new date()</em> to get the date,<em>getDay()</em> to get the day and functions such as <em>switch(){} </em>to specify the day and DOM manipulation to display the current date.</p> <a href="https://codepen.io/Lucia-Nambi/pen/LYapKea"target="_blank">Check it out</a>
+            </div>
+
+
+        </div>
+    
+
+
+    </main>   
+
+
+    <div id="contact">
+  <h1>CONTACT</h1>
+  <form action="" class="form">
+    <input type="text" name="name" class="input" placeholder="Enter Your Name">
+    <input type="email" name="email" class="input" placeholder="Enter Your Email">
+    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message">
+</textarea>
+<input type="submit" value="SEND" id="send">
+
+  </form>
+
+<!--social-icons-->
+    
+    <div class="social-icons">
+            <a href="https://www.linkedin.com/in/lucia-nambi-575bba209/" target="_blank" class="icons"><ion-icon name="logo-linkedin"  ></ion-icon></a>
+            <a href="https://github.com/NambiLucia" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://codepen.io/Lucia-Nambi" target="_blank" class="icons"><ion-icon name="logo-codepen" ></ion-icon></a>
+            <a href="mailto:nambilucia@gmail.com" target="_blank" class="icons"><ion-icon name="mail-outline"></ion-icon></a>
+            
+            
+        
+    </div>
+    
+
+    <footer>
+        <p>© 2024 designed & built by Lucia Nambi ♥</p>
+
+
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
